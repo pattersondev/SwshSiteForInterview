@@ -1,0 +1,121 @@
+#gradient-canvas {
+  --gradient-color-1: #043D5D;
+  --gradient-color-2: #032E46;
+  --gradient-color-3: #23B684;
+  --gradient-color-4: #0F595E;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.title {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.subtitle {
+  color: white;
+  z-index: 3;
+  position: absolute;
+  font-size: 2.5rem;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 200%);
+  text-align: center;
+}
+
+.cursor {
+  color: white;
+}
+
+.typer {
+  color: white
+}
+
+
+.swshlogo {
+  height: 1rem;
+  width: 2rem;
+}
+
+.download {
+  z-index: 3;
+  position: absolute;
+  color: white;
+  transform: translate(-50%, 200%);
+  left: 50%;
+  top: 55%;
+  height: 5%;
+}
+
+.footer {
+  font-weight: bold;
+  color: white;
+  z-index: 3;
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  top: 95%;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.icon-footer {
+  font-weight: bold;
+  color: white;
+  z-index: 3;
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  top: 95%;
+  gap: 2rem;
+  right: 2%;
+}
